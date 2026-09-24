@@ -1,0 +1,679 @@
+{
+  "metadatos": {
+    "norma": "Acuerdo No. 0009 de 2024",
+    "entidad": "Servicio Nacional de Aprendizaje - SENA",
+    "titulo": "Reglamento del Aprendiz del SENA",
+    "fechaPublicacion": "2024",
+    "alcance": "Aplica a todos los aprendices matriculados en programas de formación titulada (auxiliar, operario, técnico, tecnólogo, especialización tecnológica) y formación complementaria en modalidades presencial, virtual y a distancia a nivel nacional.",
+    "version": "1.0.0",
+    "autor": "Consejo Directivo Nacional SENA"
+  },
+  "principiosRectores": [
+    {
+      "id": "PR-01",
+      "nombre": "Dignidad Humana",
+      "descripcion": "Reconocimiento del aprendiz como ser integral, respetando sus derechos fundamentales, diversidad e individualidad."
+    },
+    {
+      "id": "PR-02",
+      "nombre": "Formación Profesional Integral",
+      "descripcion": "Desarrollo armónico de las dimensiones cognitiva, procedimental y actitudinal para el mundo de la vida y el trabajo."
+    },
+    {
+      "id": "PR-03",
+      "nombre": "Debido Proceso",
+      "descripcion": "Garantía de presunción de inocencia, derecho a la defensa, contradicción, notificación formal e imparcialidad en todas las actuaciones formativas y sancionatorias."
+    },
+    {
+      "id": "PR-04",
+      "nombre": "Convivencia y Diálogo Formativo",
+      "descripcion": "Priorización de la mediación pedagógica, la concertación y la resolución pacífica de conflictos en la comunidad educativa."
+    }
+  ],
+  "derechos": [
+    {
+      "id": "DER-01",
+      "capitulo": "Capítulo II - Derechos del Aprendiz",
+      "articulo": "Artículo 7, Numeral 1",
+      "categoria": "Académico",
+      "titulo": "Formación Profesional Integral de Calidad",
+      "descripcion": "Recibir inducción completa y formación profesional integral acorde con el diseño curricular del programa, con instructores idóneos y metodologías activas por proyectos.",
+      "ejemploPractico": "El instructor debe socializar los Resultados de Aprendizaje (RAP), la guía de aprendizaje y la rúbrica de evaluación al inicio de cada actividad.",
+      "icono": "GraduationCap"
+    },
+    {
+      "id": "DER-02",
+      "capitulo": "Capítulo II - Derechos del Aprendiz",
+      "articulo": "Artículo 7, Numeral 2",
+      "categoria": "Tecnológico e Infraestructura",
+      "titulo": "Acceso a Ambientes de Aprendizaje y Tecnologías",
+      "descripcion": "Disponer y hacer uso de los talleres, laboratorios, bibliotecas físicas y digitales (Sistema de Bibliotecas SENA), plataformas LMS (Zajuna/Sofia Plus) y conectividad institucional.",
+      "ejemploPractico": "Solicitar préstamo de equipos o ambientes especializados durante los horarios formativos autorizados.",
+      "icono": "Laptop"
+    },
+    {
+      "id": "DER-03",
+      "capitulo": "Capítulo II - Derechos del Aprendiz",
+      "articulo": "Artículo 7, Numeral 3",
+      "categoria": "Debido Proceso",
+      "titulo": "Debido Proceso y Derecho a la Defensa",
+      "descripcion": "Ser informado oportunamente sobre reportes académicos o disciplinarios, ser escuchado en descargos ante el Comité de Evaluación y Seguimiento y presentar pruebas pertinentes.",
+      "ejemploPractico": "Si tienes un reporte por inasistencia justificada, tienes derecho a presentar tus soportes médicos o de fuerza mayor dentro de los 3 días hábiles.",
+      "icono": "ShieldCheck"
+    },
+    {
+      "id": "DER-04",
+      "capitulo": "Capítulo II - Derechos del Aprendiz",
+      "articulo": "Artículo 7, Numeral 4",
+      "categoria": "Bienestar Integral",
+      "titulo": "Beneficios de Bienestar al Aprendiz",
+      "descripcion": "Participar activamente en los programas de salud, deporte, arte, cultura, apoyo psicosocial, apoyo de sostenimiento FIC y apoyos regulares conforme a convocatorias.",
+      "ejemploPractico": "Postularse a las convocatorias de monitorías, apoyos de alimentación o sostenimiento y actividades deportivas/culturales de centro.",
+      "icono": "HeartPulse"
+    },
+    {
+      "id": "DER-05",
+      "capitulo": "Capítulo II - Derechos del Aprendiz",
+      "articulo": "Artículo 7, Numeral 5",
+      "categoria": "Representación y Participación",
+      "titulo": "Representación Estudiantil y Democracia",
+      "descripcion": "Elegir y ser elegido como vocero de ficha o representante de aprendices de centro de formación ante los estamentos directivos.",
+      "ejemploPractico": "Votar democráticamente en las elecciones de voceros o postularse como representante para llevar las iniciativas del grupo ante la subdirección.",
+      "icono": "Users"
+    },
+    {
+      "id": "DER-06",
+      "capitulo": "Capítulo II - Derechos del Aprendiz",
+      "articulo": "Artículo 7, Numeral 6",
+      "categoria": "Académico",
+      "titulo": "Retroalimentación Oportuna de Evidencias",
+      "descripcion": "Conocer los resultados y retroalimentaciones cuantitativas y cualitativas de las evidencias de aprendizaje valoradas en el LMS en los plazos reglamentarios (máximo 5 días hábiles).",
+      "ejemploPractico": "El instructor debe registrar en la plataforma de formación los juicios evaluativos (Aprobado / No Aprobado) con las observaciones de mejora.",
+      "icono": "FileCheck"
+    }
+  ],
+  "deberes": [
+    {
+      "id": "DEB-01",
+      "capitulo": "Capítulo III - Deberes del Aprendiz",
+      "articulo": "Artículo 8, Numeral 1",
+      "categoria": "Compromiso Formativo",
+      "titulo": "Asistencia, Puntualidad y Participación Activa",
+      "descripcion": "Asistir puntualmente a todas las sesiones presenciales, sincrónicas y actividades programadas en la ruta de aprendizaje, cumpliendo con el cronograma de entregas.",
+      "ejemploPractico": "Ingresar a las sesiones a la hora acordada y subir las evidencias a la plataforma antes de la fecha límite establecida.",
+      "icono": "Clock"
+    },
+    {
+      "id": "DEB-02",
+      "capitulo": "Capítulo III - Deberes del Aprendiz",
+      "articulo": "Artículo 8, Numeral 2",
+      "categoria": "Convivencia y Respeto",
+      "titulo": "Trato Digno, Inclusivo y Convivencia Pacífica",
+      "descripcion": "Respetar la dignidad, integridad, creencias, orientación e individualidad de instructores, compañeros, administrativos y personal de servicios generales.",
+      "ejemploPractico": "Emplear un lenguaje constructivo en los foros de discusión virtual y en los ambientes físicos, evitando ofensas, acoso o discriminación.",
+      "icono": "Smile"
+    },
+    {
+      "id": "DEB-03",
+      "capitulo": "Capítulo III - Deberes del Aprendiz",
+      "articulo": "Artículo 8, Numeral 3",
+      "categoria": "Identidad e Imagen Institucional",
+      "titulo": "Porte del Carné y Presentación Personal / EPP",
+      "descripcion": "Portar visiblemente el carné institucional dentro de las sedes del SENA y utilizar el uniforme reglamentario o Elementos de Protección Personal (EPP) según el área técnica.",
+      "ejemploPractico": "En talleres de mecánica o gastronomía, usar botas de seguridad, overol o cofia y portar el carné en el pecho durante toda la jornada.",
+      "icono": "IdCard"
+    },
+    {
+      "id": "DEB-04",
+      "capitulo": "Capítulo III - Deberes del Aprendiz",
+      "articulo": "Artículo 8, Numeral 4",
+      "categoria": "Cuidado de Bienes",
+      "titulo": "Preservación y Buen Uso de Recursos e Instalaciones",
+      "descripcion": "Cuidar las instalaciones, maquinaria, herramientas, redes de cómputo y recursos ambientales del centro de formación, reportando cualquier anomalía.",
+      "ejemploPractico": "Apagar los equipos de cómputo al terminar la sesión y devolver las herramientas de taller limpias e inventariadas.",
+      "icono": "Hammer"
+    },
+    {
+      "id": "DEB-05",
+      "capitulo": "Capítulo III - Deberes del Aprendiz",
+      "articulo": "Artículo 8, Numeral 5",
+      "categoria": "Honestidad Académica",
+      "titulo": "Integridad Académica y Derechos de Autor",
+      "descripcion": "Elaborar las evidencias con autoría propia, citando debidamente las fuentes consultadas y evitando el plagio, suplantación o fraude en evaluaciones.",
+      "ejemploPractico": "Citar bajo normas APA las fuentes bibliográficas de proyectos e investigaciones y no pagar a terceros para la elaboración de evidencias.",
+      "icono": "FileText"
+    },
+    {
+      "id": "DEB-06",
+      "capitulo": "Capítulo III - Deberes del Aprendiz",
+      "articulo": "Artículo 8, Numeral 6",
+      "categoria": "Normativa y Trámites",
+      "titulo": "Notificación Oportuna de Novedades",
+      "descripcion": "Informar por los canales institucionales sobre incapacidades médicas, traslados, aplazamientos o retiros voluntarios dentro de los plazos reglamentarios.",
+      "ejemploPractico": "Radicar la incapacidad médica emitida o validada por la EPS ante la coordinación académica en un plazo no mayor a 3 días hábiles.",
+      "icono": "Mail"
+    }
+  ],
+  "prohibiciones": [
+    {
+      "id": "PRO-01",
+      "descripcion": "Ingresar o consumir bebidas alcohólicas, sustancias psicoactivas o ingresar bajo sus efectos a los centros de formación o ambientes de aprendizaje.",
+      "gravedad": "Gravísima"
+    },
+    {
+      "id": "PRO-02",
+      "descripcion": "Cometer plagio, alterar notas, suplantar la identidad de personas en pruebas físicas o plataformas virtuales institucionales.",
+      "gravedad": "Grave / Gravísima"
+    },
+    {
+      "id": "PRO-03",
+      "descripcion": "Portar armas de fuego, cortopunzantes o elementos peligrosos en las instalaciones de la entidad o en empresas de etapa productiva.",
+      "gravedad": "Gravísima"
+    },
+    {
+      "id": "PRO-04",
+      "descripcion": "Cometer actos de acoso laboral, sexual, escolar (bullying) o violencia física o verbal hacia cualquier miembro de la comunidad SENA.",
+      "gravedad": "Gravísima"
+    },
+    {
+      "id": "PRO-05",
+      "descripcion": "Utilizar indebidamente los nombres, insignias, símbolos o equipos del SENA para beneficio personal, político o comercial no autorizado.",
+      "gravedad": "Grave"
+    }
+  ],
+  "clasificacionFaltas": {
+    "tipos": [
+      {
+        "tipo": "Académica",
+        "descripcion": "Relacionada directamente con el compromiso formativo, entrega de evidencias, apropiación de conocimientos y desarrollo de competencias.",
+        "ejemplos": ["No entrega reiterada de evidencias", "Plagio en proyectos formativos", "Incumplimiento de planes de mejoramiento"]
+      },
+      {
+        "tipo": "Disciplinaria",
+        "descripcion": "Relacionada con el comportamiento, convivencia, cuidado de bienes, normas de seguridad y respeto institucional.",
+        "ejemplos": ["Agresiones verbales o físicas", "Daño intencional a equipos o infraestructura", "Porte de sustancias prohibidas"]
+      }
+    ],
+    "criteriosCalificacion": [
+      {
+        "grado": "Leve",
+        "criterio": "Falta que no altera significativamente el desarrollo normal de la formación ni vulnera gravemente los derechos de terceros.",
+        "medida": "Llamado de atención verbal formativo o llamado de atención escrito con registro en hoja de vida."
+      },
+      {
+        "grado": "Grave",
+        "criterio": "Incumplimiento de deberes que afecta el desarrollo formativo o la convivencia institucional con reiteración culposa.",
+        "medida": "Plan de mejoramiento disciplinario/académico o Condicionamiento de matrícula emitido por Subdirección de Centro."
+      },
+      {
+        "grado": "Gravísima",
+        "criterio": "Conducta que atenta contra la integridad de personas, el patrimonio del SENA o viola normas penales/disciplinarias severas.",
+        "medida": "Cancelación de matrícula e inhabilidad para registrarse en el SENA por períodos de 6 meses a 3 años."
+      }
+    ]
+  },
+  "debidoProceso": {
+    "fases": [
+      {
+        "paso": 1,
+        "nombre": "Informe o Reporte",
+        "detalle": "El instructor, vocero o funcionario radica el reporte motivado ante la Coordinación Académica con las evidencias."
+      },
+      {
+        "paso": 2,
+        "nombre": "Citación a Comité",
+        "detalle": "Se notifica formalmente al aprendiz vía correo institucional con al menos 3 días hábiles de anticipación, adjuntando el pliego de cargos."
+      },
+      {
+        "paso": 3,
+        "nombre": "Sesión del Comité y Descargos",
+        "detalle": "El aprendiz ejerce su derecho a la defensa, rinde descargos orales o escritos y aporta o controvierte pruebas."
+      },
+      {
+        "paso": 4,
+        "nombre": "Recomendación y Acto Administrativo",
+        "detalle": "El Comité emite recomendación pedagógica y el Subdirector de Centro expide la Resolución motivada correspondiente."
+      },
+      {
+        "paso": 5,
+        "nombre": "Recurso de Reposición",
+        "detalle": "El aprendiz puede interponer recurso de reposición ante el Subdirector de Centro dentro de los 5 días hábiles siguientes a la notificación."
+      }
+    ]
+  },
+  "etapaProductiva": {
+    "definicion": "Fase formativa donde el aprendiz aplica, complementa y consolida sus competencias en un entorno laboral y productivo real.",
+    "modalidades": [
+      {
+        "id": "EP-01",
+        "nombre": "Contrato de Aprendizaje",
+        "descripcion": "Patrocinio empresarial formal conforme a la Ley 789 de 2002. La empresa aporta apoyo de sostenimiento y afiliaciones a EPS y ARL.",
+        "caracteristica": "Modalidad más común; 100% de dedicación en la empresa con seguimiento de bitácoras."
+      },
+      {
+        "id": "EP-02",
+        "nombre": "Pasantía",
+        "descripcion": "Práctica formativa concertada con una empresa, ONG, institución estatal o unidad familiar mediante convenio o carta de compromiso.",
+        "caracteristica": "Puede incluir asesorías a MiPymes o apoyo institucional con afiliación a ARL."
+      },
+      {
+        "id": "EP-03",
+        "nombre": "Proyecto Productivo",
+        "descripcion": "Desarrollo de un proyecto de innovación, investigación aplicada en SENNOVA, Tecnoacademia o creación de empresa con Fondo Emprender.",
+        "caracteristica": "Orientado al emprendimiento y validación técnica dentro del centro o incubadora."
+      },
+      {
+        "id": "EP-04",
+        "nombre": "Monitoría",
+        "descripcion": "Apoyo técnico en laboratorios, talleres y procesos pedagógicos del Centro de Formación SENA.",
+        "caracteristica": "Requiere resolución de designación y cumplimiento de horas formativas acreditadas."
+      },
+      {
+        "id": "EP-05",
+        "nombre": "Vínculo Laboral o Contractual",
+        "descripcion": "Acreditación de funciones laborales desempeñadas actualmente que guarden directa relación con el perfil de egreso del programa.",
+        "caracteristica": "Se legaliza con certificación de funciones de la empresa empleadora."
+      }
+    ],
+    "instrumentosSeguimiento": [
+      "Formato de concertación de actividades de etapa productiva (F-023).",
+      "Bitácoras de seguimiento quincenales / mensuales radicadas en el sistema institucional.",
+      "Visita o sesión virtual de seguimiento por instructor asignado.",
+      "Evaluación final de etapa productiva para juicio de aprobación y posterior titulación."
+    ]
+  },
+  "estimulosIncentivos": [
+    {
+      "titulo": "Monitorías de Aprendices",
+      "descripcion": "Designación como monitor académico en ambientes de aprendizaje con reconocimiento económico institucional."
+    },
+    {
+      "titulo": "Mención de Honor y Excelencia Académica",
+      "descripcion": "Reconocimiento público y diploma de honor al mejor aprendiz de la cohorte o por liderazgo representativo."
+    },
+    {
+      "titulo": "Semilleros de Investigación SENNOVA",
+      "descripcion": "Oportunidad de publicar ponencias, desarrollar patentes y participar en proyectos de ciencia y tecnología."
+    },
+    {
+      "titulo": "Representación en WorldSkills y Campamentos",
+      "descripcion": "Participación en competencias de destrezas técnicas a nivel regional, nacional e internacional."
+    },
+    {
+      "titulo": "Convenios de Homologación Universitaria",
+      "descripcion": "Facilidad para continuar la cadena de formación hacia carreras profesionales con universidades aliadas."
+    }
+  ],
+  "bancoPreguntasEvaluacion": [
+    {
+      "id": "Q-01",
+      "categoria": "Derechos",
+      "competencia": "Apropiación de Derechos Institucionales",
+      "caso": "Carlos, aprendiz de Análisis y Desarrollo de Software, entregó su evidencia en la plataforma institucional el día lunes. Han pasado 8 días hábiles y el instructor aún no califica ni retroalimenta su trabajo. Carlos desea saber qué derecho lo ampara.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Tiene derecho a exigir aprobación automática inmediata sin revisión del instructor.",
+          "esCorrecta": false,
+          "explicacionError": "La normatividad no otorga aprobación automática. El derecho del aprendiz es recibir retroalimentación oportuna en los plazos normativos (máximo 5 días hábiles) para conocer su estado de aprendizaje."
+        },
+        {
+          "id": "B",
+          "texto": "Tiene derecho a recibir la evaluación y retroalimentación oportuna de sus evidencias (máximo 5 días hábiles) para conocer su progreso formativo.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Excelente! Según el Acuerdo 0009 de 2024, los aprendices tienen derecho a conocer oportunamente los resultados y retroalimentaciones cualitativas de sus evidencias."
+        },
+        {
+          "id": "C",
+          "texto": "No tiene ningún derecho porque los instructores tienen hasta el final del trimestre para calificar.",
+          "esCorrecta": false,
+          "explicacionError": "Falso. El Reglamento establece plazos perentorios para que el instructor valore las evidencias (5 días hábiles), garantizando la retroalimentación formativa continua."
+        },
+        {
+          "id": "D",
+          "texto": "Debe ausentarse de las clases hasta que el instructor califique todas las tareas pendientes.",
+          "esCorrecta": false,
+          "explicacionError": "Ausentarse constituiría una falta de inasistencia injustificada, violando los deberes del aprendiz."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo II, Artículo 7 (Derechos del Aprendiz)",
+        "conceptoClave": "Derecho a la retroalimentación pedagógica oportuna.",
+        "consejoPedagogico": "Si el plazo vence, acude respetuosamente al instructor por los canales institucionales. Si no hay respuesta, puedes solicitar orientación a tu Vocero de Ficha o Coordinador Académico."
+      }
+    },
+    {
+      "id": "Q-02",
+      "categoria": "Deberes",
+      "competencia": "Convivencia y Seguridad en el Ambiente",
+      "caso": "En el taller de Mecatrónica, Luisa observa que un compañero no está utilizando las gafas de seguridad ni las botas dieléctricas reglamentarias exigidas para la práctica de soldadura.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Ignorar la situación porque cada aprendiz es responsable individual de su propia seguridad.",
+          "esCorrecta": false,
+          "explicacionError": "La seguridad y salud en el trabajo (SST) es un compromiso colectivo en el SENA. El Reglamento exige el porte obligatorio de EPP para prevenir accidentes a todo el grupo."
+        },
+        {
+          "id": "B",
+          "texto": "El uso de EPP y uniforme reglamentario es un deber obligatorio del aprendiz para salvaguardar la vida y la integridad en los ambientes de formación.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Correcto! El porte de los Elementos de Protección Personal (EPP) y uniforme reglamentario es un deber ineludible estipulado en el Artículo 8 del Reglamento."
+        },
+        {
+          "id": "C",
+          "texto": "El uso de EPP solo es obligatorio cuando el centro de formación recibe visitas de auditoría externa.",
+          "esCorrecta": false,
+          "explicacionError": "Los EPP son de uso constante e irrestricto durante todas las prácticas de taller y laboratorio, no solo en auditorías."
+        },
+        {
+          "id": "D",
+          "texto": "El aprendiz puede cambiar los EPP por ropa deportiva si le resulta más cómoda durante la práctica.",
+          "esCorrecta": false,
+          "explicacionError": "No está permitido sustituir la indumentaria de protección técnica por prendas comunes, ya que expone al aprendiz a riesgos ocupacionales."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo III, Artículo 8, Numeral 3 (Deberes)",
+        "conceptoClave": "Uso obligatorio de EPP y preservación de la seguridad.",
+        "consejoPedagogico": "El instructor tiene la potestad y deber pedagógico de suspender la práctica a quien no cuente con sus EPP completos para evitar incidentes laborales."
+      }
+    },
+    {
+      "id": "Q-03",
+      "categoria": "Debido Proceso",
+      "competencia": "Garantías y Procedimiento en Comités",
+      "caso": "Andrés fue citado al Comité de Evaluación y Seguimiento de Centro por presuntas faltas disciplinarias. La notificación le llegó hoy a las 8:00 a.m. y el comité fue programado para hoy mismo a las 10:00 a.m. sin copia de las pruebas.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "El procedimiento es correcto porque la entidad puede citar en cualquier momento sin previo aviso.",
+          "esCorrecta": false,
+          "explicacionError": "Incorrecto. Se está vulnerando el Debido Proceso constitucional e institucional. El aprendiz debe ser citado con anticipación para preparar su defensa."
+        },
+        {
+          "id": "B",
+          "texto": "Se vulnera el Debido Proceso: la citación debe realizarse con mínimo 3 días hábiles de anticipación, adjuntando el pliego de cargos y pruebas para garantizar el derecho a la defensa.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Exacto! El Debido Proceso estipula mínimo 3 días hábiles de antelación para la citación a Comité con traslado íntegro de pruebas y señalamientos."
+        },
+        {
+          "id": "C",
+          "texto": "El comité puede sesionar y sancionar al aprendiz sin necesidad de que este rinda descargos.",
+          "esCorrecta": false,
+          "explicacionError": "Todo aprendiz tiene el derecho inalienable a ser escuchado en descargos antes de que se profiera cualquier medida o recomendación sancionatoria."
+        },
+        {
+          "id": "D",
+          "texto": "El aprendiz debe pagar una multa económica para aplazar la reunión del comité.",
+          "esCorrecta": false,
+          "explicacionError": "El SENA es una entidad pública totalmente gratuita; no existen multas ni cobros pecuniarios por actuaciones disciplinarias."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo VI (Procedimiento y Debido Proceso)",
+        "conceptoClave": "Garantía de término para defensa (mínimo 3 días hábiles).",
+        "consejoPedagogico": "Cuando recibas una citación formal, revisa los hechos imputados, recopila tus evidencias y asiste puntualmente con serenidad para exponer tus argumentos."
+      }
+    },
+    {
+      "id": "Q-04",
+      "categoria": "Etapa Productiva",
+      "competencia": "Modalidades y Legalización",
+      "caso": "Mariana culminó su etapa lectiva de Gestión Administrativa y desea realizar su etapa productiva creando su propio emprendimiento con acompañamiento de Fondo Emprender en el Centro de Formación.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "No es posible, porque la única modalidad válida de etapa productiva en el SENA es el Contrato de Aprendizaje empresarial.",
+          "esCorrecta": false,
+          "explicacionError": "Falso. El SENA contempla 5 alternativas formales aprobadas, entre ellas el Proyecto Productivo orientado a la creación de empresa o innovación."
+        },
+        {
+          "id": "B",
+          "texto": "Es totalmente viable a través de la modalidad de Proyecto Productivo / Emprendimiento, presentando su anteproyecto ante el Comité para su aval y designación de instructor de seguimiento.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Excelente! El Proyecto Productivo en el marco de Fondo Emprender o SENNOVA es una de las modalidades más valoradas en el SENA para fortalecer el tejido empresarial."
+        },
+        {
+          "id": "C",
+          "texto": "Solo se puede hacer proyecto productivo si la empresa patrocinadora le paga un salario de gerente.",
+          "esCorrecta": false,
+          "explicacionError": "El proyecto productivo es una modalidad de autoempleo o desarrollo técnico, no requiere patrocinio empresarial directo."
+        },
+        {
+          "id": "D",
+          "texto": "Debe renunciar a su título técnico para poder ser emprendedora.",
+          "esCorrecta": false,
+          "explicacionError": "Al contrario, el proyecto productivo le permite titularse como tecnóloga o técnica al cumplir sus bitácoras y sustentación."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo V (Etapa Productiva, Modalidad Proyecto Productivo)",
+        "conceptoClave": "Diversidad de alternativas de etapa productiva aprobadas.",
+        "consejoPedagogico": "Para optar por proyecto productivo, contacta a la unidad de Emprendimiento / Fondo Emprender de tu centro durante el último trimestre lectivo."
+      }
+    },
+    {
+      "id": "Q-05",
+      "categoria": "Faltas y Sanciones",
+      "competencia": "Honestidad Académica y Sanciones",
+      "caso": "Durante la entrega del proyecto final, se descubre que dos aprendices copiaron textualmente una tesis de grado descargada de internet sin citar y pagaron a un tercero para subirla al LMS.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Es una conducta permitida siempre y cuando cambien los nombres de la portada.",
+          "esCorrecta": false,
+          "explicacionError": "El plagio y fraude académico son considerados faltas graves o gravísimas que atentan contra la ética profesional y los derechos de autor."
+        },
+        {
+          "id": "B",
+          "texto": "Se tipifica como falta académica/disciplinaria grave o gravísima que da lugar a reporte, comité de evaluación, plan de mejoramiento o condicionamiento/cancelación de matrícula.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Muy bien! El plagio y la suplantación atentan contra la honestidad formativa y conllevan sanciones disciplinarias y académicas severas."
+        },
+        {
+          "id": "C",
+          "texto": "El instructor solo puede bajarles 1 punto en la nota sin hacer ningún reporte.",
+          "esCorrecta": false,
+          "explicacionError": "El sistema evaluativo SENA es cualitativo (Aprobado / No Aprobado). El fraude debe ser reportado formalmente para el debido proceso disciplinario."
+        },
+        {
+          "id": "D",
+          "texto": "No hay consecuencias porque en internet todo el contenido es de dominio público libre de copia.",
+          "esCorrecta": false,
+          "explicacionError": "La legislación colombiana sobre derechos de autor (Ley 23 de 1982) y el Reglamento SENA exigen estricta citación de fuentes y autoría propia."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo IV (Faltas, Prohibiciones y Sanciones)",
+        "conceptoClave": "Prohibición estricta de plagio y suplantación en evidencias.",
+        "consejoPedagogico": "Aplica siempre normas de citación (APA o IEEE) y consulta al instructor si tienes dudas sobre cómo referenciar ideas o fragmentos tomados de la red."
+      }
+    },
+    {
+      "id": "Q-06",
+      "categoria": "Trámites y Novedades",
+      "competencia": "Gestión de Novedades Académicas",
+      "caso": "Felipe debe someterse a una intervención quirúrgica y requiere 4 meses de incapacidad médica. Desea saber cuál es el trámite formal que debe solicitar para no perder su cupo en el SENA.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Dejar de asistir sin avisar a nadie y volver cuando se recupere.",
+          "esCorrecta": false,
+          "explicacionError": "Dejar de asistir sin justificación genera deserción y cancelación de matrícula con inhabilidad de 6 meses a 1 año."
+        },
+        {
+          "id": "B",
+          "texto": "Radicar formalmente una solicitud de Aplazamiento por Sofia Plus / Zajuna con el soporte médico antes de acumular inasistencias injustificadas.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Correcto! El aplazamiento es la novedad reglamentaria que reserva el cupo hasta por un tiempo determinado por fuerza mayor comprobada."
+        },
+        {
+          "id": "C",
+          "texto": "Pagar a un compañero para que responda a lista por él.",
+          "esCorrecta": false,
+          "explicacionError": "La suplantación es una falta gravísima que acarrea sanción disciplinaria inmediata."
+        },
+        {
+          "id": "D",
+          "texto": "El SENA no permite ausencias médicas bajo ninguna circunstancia.",
+          "esCorrecta": false,
+          "explicacionError": "El Reglamento reconoce los derechos a la salud y situaciones de fuerza mayor mediante la figura del aplazamiento justificado."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo VII (Trámites Académicos y Novedades)",
+        "conceptoClave": "Solicitud formal y oportuna de Aplazamiento con soportes.",
+        "consejoPedagogico": "Notifica inmediatamente a tu instructor líder y al coordinador académico para tramitar el aplazamiento a tiempo."
+      }
+    },
+    {
+      "id": "Q-07",
+      "categoria": "Representatividad y Vocería",
+      "competencia": "Liderazgo y Participación Democrática",
+      "caso": "La ficha de Gestión Empresarial debe elegir a su Vocero de Ficha durante el primer mes de inducción. ¿Cuál es el rol principal de este líder?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Calificar y evaluar los exámenes de sus compañeros de grupo.",
+          "esCorrecta": false,
+          "explicacionError": "La evaluación del aprendizaje es potestad exclusiva del equipo de instructores asignados."
+        },
+        {
+          "id": "B",
+          "texto": "Representar a su grupo como canal de diálogo constructivo ante instructores, comités y directivas, promoviendo la convivencia pacífica y el trabajo colaborativo.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Exacto! El vocero es el puente de comunicación pedagógica y garante del diálogo formativo entre la ficha y el Centro de Formación."
+        },
+        {
+          "id": "C",
+          "texto": "Decidir quién puede entrar o salir de las instalaciones del centro.",
+          "esCorrecta": false,
+          "explicacionError": "El control de acceso y seguridad corresponde a la administración del centro."
+        },
+        {
+          "id": "D",
+          "texto": "Cobrar dinero a sus compañeros para fotocopias obligatorias.",
+          "esCorrecta": false,
+          "explicacionError": "Está terminantemente prohibido exigir o recolectar dineros no autorizados en el SENA."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo VIII (Representación de Aprendices y Voceros)",
+        "conceptoClave": "Liderazgo propositivo y canal de comunicación institucional.",
+        "consejoPedagogico": "Elige a voceros con vocación de servicio, empatía y compromiso con el reglamento institucional."
+      }
+    },
+    {
+      "id": "Q-08",
+      "categoria": "Bienestar al Aprendiz",
+      "competencia": "Acceso a Estímulos y Apoyos",
+      "caso": "Camilo tiene un rendimiento académico sobresaliente en su programa técnico y desea postularse a una Monitoría Académica en el centro. ¿Qué beneficio y deber implica?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Queda eximido de presentar la etapa productiva y recibe el título automáticamente.",
+          "esCorrecta": false,
+          "explicacionError": "La monitoría no exime de cumplir todas las competencias del diseño curricular ni la etapa productiva."
+        },
+        {
+          "id": "B",
+          "texto": "Es un estímulo reglamentario donde apoya actividades formativas o tecnológicas recibiendo un incentivo económico institucional sin perder su condición de aprendiz.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Muy bien! Las monitorías son estímulos de Bienestar al Aprendiz que reconocen la excelencia académica y apoyan los procesos del centro."
+        },
+        {
+          "id": "C",
+          "texto": "Debe pagar una fianza para poder ser monitor.",
+          "esCorrecta": false,
+          "explicacionError": "Todos los programas y estímulos del SENA son 100% gratuitos."
+        },
+        {
+          "id": "D",
+          "texto": "Solo se otorga monitoría a aprendices que tengan sanciones disciplinarias.",
+          "esCorrecta": false,
+          "explicacionError": "Para ser monitor se exige intachable conducta y no registrar sanciones vigentes."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo IX (Estímulos e Incentivos al Aprendiz)",
+        "conceptoClave": "Monitorías como reconocimiento a la excelencia académica.",
+        "consejoPedagogico": "Consulta en la oficina de Bienestar al Aprendiz de tu centro las convocatorias de monitorías, apoyos de sostenimiento y monitorías SENNOVA."
+      }
+    },
+    {
+      "id": "Q-09",
+      "categoria": "Prohibiciones y Seguridad",
+      "competencia": "Convivencia y Espacios Libres de Violencia",
+      "caso": "En los baños del centro de formación, se encuentra a un aprendiz consumiendo cigarrillos electrónicos (vapeadores) y portando un arma blanca.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Es permitido porque los vapeadores no generan humo convencional y el arma es para uso personal.",
+          "esCorrecta": false,
+          "explicacionError": "El SENA es un espacio 100% libre de humo/vapeo y prohíbe taxativamente el ingreso o porte de cualquier tipo de arma."
+        },
+        {
+          "id": "B",
+          "texto": "Se cataloga como falta disciplinaria gravísima que vulnera la seguridad de la comunidad y conlleva cancelación inmediata de matrícula y reporte a las autoridades competentes.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Correcto! El porte de armas y el consumo de sustancias prohibidas en instalaciones del SENA constituyen faltas gravísimas no tolerables."
+        },
+        {
+          "id": "C",
+          "texto": "El vigilante solo puede pedirle que guarde el vapeador sin hacer ningún reporte.",
+          "esCorrecta": false,
+          "explicacionError": "Debe realizarse reporte inmediato a coordinación para activar el protocolo disciplinario y de seguridad."
+        },
+        {
+          "id": "D",
+          "texto": "Se sanciona únicamente si el aprendiz no comparte el vapeador con sus compañeros.",
+          "esCorrecta": false,
+          "explicacionError": "La prohibición es absoluta en todas las sedes y ambientes de formación del SENA a nivel nacional."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo IV, Artículo 10 (Prohibiciones Expresas)",
+        "conceptoClave": "Prohibición estricta de armas, estupefacientes y vapeo.",
+        "consejoPedagogico": "Los centros de formación son espacios seguros de paz, respeto y crecimiento humano."
+      }
+    },
+    {
+      "id": "Q-10",
+      "categoria": "Etapa Productiva",
+      "competencia": "Seguimiento y Registro de Bitácoras",
+      "caso": "Santiago está realizando su etapa productiva bajo la modalidad de Vínculo Laboral. ¿Cuál es su obligación periódica para que su etapa sea evaluada y aprobada?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Solo debe enviar un mensaje de texto al instructor el último día de su contrato.",
+          "esCorrecta": false,
+          "explicacionError": "El seguimiento exige bitácoras quincenales registradas formalmente en el formato institucional F-023."
+        },
+        {
+          "id": "B",
+          "texto": "Diligenciar y concertar las bitácoras periódicas de seguimiento (formato F-023) con su jefe inmediato y asistir a las visitas concertadas con su instructor de seguimiento.",
+          "esCorrecta": true,
+          "explicacionExito": "¡Excelente! Las bitácoras quincenales y las visitas de seguimiento son el insumo formal para emitir el Juicio Evaluativo de la Etapa Productiva."
+        },
+        {
+          "id": "C",
+          "texto": "No requiere entregar ningún documento si la empresa le paga su sueldo a tiempo.",
+          "esCorrecta": false,
+          "explicacionError": "El pago salarial no reemplaza la evidencia académica del desarrollo de competencias laborales."
+        },
+        {
+          "id": "D",
+          "texto": "Debe pagar al instructor de seguimiento los viáticos de visita.",
+          "esCorrecta": false,
+          "explicacionError": "Los instructores del SENA no pueden cobrar ningún valor por visitas de seguimiento."
+        }
+      ],
+      "refuerzoNormativo": {
+        "articulo": "Acuerdo 0009 de 2024 - Capítulo V (Seguimiento a la Etapa Productiva)",
+        "conceptoClave": "Diligenciamiento riguroso de bitácoras y visitas concertadas.",
+        "consejoPedagogico": "Mantén al día tus bitácoras quincenales firmadas por tu jefe para evitar retrasos en tu proceso de certificación."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Portal SENA - Inducción a la Formación Titulada",
+  "description": "Aplicación interactiva y guía experta para la sesión de inducción SENA: Reglamento del Aprendiz, Etapa Productiva, Homologación y Estructura Pedagógica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
